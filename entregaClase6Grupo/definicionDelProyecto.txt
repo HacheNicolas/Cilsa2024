@@ -1,0 +1,9 @@
+1) Creación de un e-commerce para venta de productos para el hogar.
+2) La página web se llamará "TecnoCasa".
+3) La tecnología de gestión de proyecto será a través de Google Drive, donde se crearan una serie de documentos para la correcta administración del proceso.
+https://drive.google.com/drive/folders/1EIR9ikKjEvTvPT7nnfJaM-NA4sYRtPE9?usp=sharing
+4) Creación de un grupo de WhatsApp para agilizar la comunicación.
+5) Creación de un calendario con clases y objetivos.
+https://calendar.google.com/calendar/u/0?cid=NjNiMmQxNGIzYjBjMDVlMmJmMTMxODgxMjhiMjc2ODMwYmMyODBkYmJmOGQ2NDFlMzg5ZTAzYWEyOTc4YjA1ZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
+6) Creación de un repositorio para el proyecto
+https://github.com/tanonibrenda/ecommerce_Cilsa.git

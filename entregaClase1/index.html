@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega 1 CILSA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h3>Formulario de Datos Personales</h3>
+        <form class="form" action="">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="" id="nombre" placeholder="Carlos" minlength="3" required>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="" id="apellido" placeholder="Perez" minlength="3" required>
+            <label for="email">Email:</label>
+            <input type="email" name="" id="email" placeholder="mail@mail.com" required>
+            <label for="nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" name="" id="nacimiento" placeholder="dd/mm/aaaa" required>
+            <label for="pais">País de Residencia:</label>
+            <input type="text" name="" id="pais" placeholder="Pais de residencia" minlength="3" required>
+            <button class="botonEnviar" type="submit">Enviar</button>
+        </form>
+        <div class="estilos">
+            <button onclick="estiloPredeterminado()">Estilo 1</button>
+            <button onclick="altoContraste()">Estilo de Alto contraste</button>
+        </div>
+    </div>
+    <script>
+        const estiloPredeterminado = () => {
+            document.body.classList.remove("altoContraste");
+        }
+        const altoContraste = () => {
+            document.body.classList.add("altoContraste");
+        }
+    </script>
+</body>
+</html>
