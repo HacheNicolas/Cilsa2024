@@ -1,0 +1,18 @@
+- Les proponemos reflexionar y debatir en que contextos de nuestra vida cotidiana accedemos, consultamos o modificamos datos de una base de datos. Les pedimos que incorporen ejemplos, tipos de datos o de información, para que se utiliza? que seguridad hay en la información? que se requiere para poder acceder a la misma? es pública? quien o quienes son los dueños? cedo mis derechos sobre mi informacion?
+
+En la vida cotidiana, mayormente de manera virtual, utilizamos bases de datos constantemente. Todo lo que vemos en las pantallas se encuentra almacenado en algún tipo de base de datos. Ya sea de forma local o en la nube. Se implementan diversos protocolos para la seguridad de la información almacenada en cada una de ellas, cada uno con sus propias fortalezas y vulnerabilidades. La información que almacenamos en linea, por más de que sea personal, puede ser accedida por los administradores de las bases de datos que utilicemos. La privacidad de los datos almacenados siempre está estipulado en las normas de privacidad de cada uno de estos recursos, las cuales difieren entre cada prestador de servicios. La gran mayoría hace uso de la información para generar seguimiento y métricas del uso de sus servicios en general, pero también puede compartir cierta información con terceros para marketing o la utilización de otros servicios que brinda la aplicación pero son de terceros; como las diversas formas de registrarse a un servicio con APIs integradas de otros servicios en los cuales ya poseemos cuentas.
+
+- Si ya han utilizado bases de datos en sus aplicaciones, les pedimos que sumen sus experiencias brevemente.
+
+A lo largo del cursado de mi carrera universitaria, cursos, y proyectos personales, he tenido la oportunidad de utilizar varias bases de datos, tanto relacionales como no relacionales, de forma local y en la nube, cada una con sus respectivas sintaxis y dependiendo del proyecto en el cual trabajara. Las mismas fueron:
+
+MariaDB: Primera base de datos con la cual tuve un acercamiento en la universidad, interactué con la misma por medio del lenguaje Java, utilizando JDBC y el patrón DAO. La misma utiliza sintaxis SQL y la ejecutaba por medio de HeidiSQL.
+
+MySQL Workbench: Profundicé en el lenguaje SQL en un curso y realicé una base de datos para una fundación a la cual asistía como voluntario. Realicé un diagrama de entidad relación, tablas para la gestión de perfiles de usuarios, eventos, stock y donaciones o solicitudes de donaciones. Además, creé objetos tales como Vistas, funciones, stored procedures y triggers. Finalmente, realicé el backup de la base de datos.
+También interactué con MySQL Workbench por medio de una aplicación con Java, con Springboot y mediante Hibernate.
+
+SQLite: De forma local y reducida para un aplicación mobile, almacenando datos del usuario en sí, tanto como preferencias como modo claro/oscuro de la aplicación.
+
+Firebase: Interactué con esta base de datos en la nube para almacenar información relacionada a una aplicación mobiel.
+
+MongoDB: Interactué con la misma desde un servidor backend para almacenar productos de un ecommerce, del carrito de compras y mensajes de un chat con websocket. La misma se alojaba en Atlas y podía mantener el seguimiento desde la aplicación mongoDBCompass.
